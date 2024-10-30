@@ -1,0 +1,1 @@
+print("\nWelcome to InfoTechCenter V2.0")
