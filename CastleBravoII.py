@@ -16,7 +16,7 @@ ellipsis = 0  # Initialize a variable to track the number of dots for the loadin
 while x != 20:
     x += 1  # Increment the counter
     # Create a loading message that includes an increasing number of dots
-    message = (bold+"InfoTechCenter System Booting" + "." * ellipsis + reset)
+    message = (bold+"InfoTechCenter System Booting" + "." * ellipsis + reset) # Used bold variable to give text weight
     ellipsis += 1  # Increment the ellipsis counter to add more dots
     # Write the message to the console, using '\r' to overwrite the line
     sys.stdout.write("\r" + message)
@@ -26,4 +26,4 @@ while x != 20:
         ellipsis = 0
     # Once the counter reaches 20, print the final boot-up message
     if x == 20:
-        print(green + "\n\nOperating System Booted up - Retina Scanned - Access Granted" + reset)
+        print(green + "\n\nOperating System Booted up - Retina Scanned - Access Granted" + reset) # Changed text to green using green variable
