@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import sys  # Import the sys module for system-specific parameters and functions
 import time  # Import the time module for time-related functions
 
@@ -29,7 +28,7 @@ while x != 20:
     # Once the counter reaches 20, print the final boot-up message
     if x == 20:
         print(green + "\n\nOperating System Booted up - Retina Scanned - Access Granted" + reset) # Changed text to green using green variable
-=======
+
 # Print decorative header
 print("\n****************************************************\n")
 print("Weather Branch")
@@ -74,8 +73,7 @@ def vehicle_response_system():
 
 # Call the vehicle response function to execute based on weather condition
 vehicle_response_system()
->>>>>>> Weather
-=======
+
 # Import necessary libraries
 import random  # for generating random selections
 from time import sleep  # for pausing the program briefly (used for simulating delay)
@@ -88,16 +86,13 @@ print("Gasoline Branch\n")
 GAS_LEVELS = ["Empty", "Low", "Quarter Tank", "Half Tank", "Three Quarter Tank", "Full Tank"]
 GAS_STATIONS = ["BP", "Shell", "Meijer", "Sams Club", "Marathon", "Mobile", "Speedway", "Circle K"]
 
-
 # Function to generate a random gas level
 def gasLevelGuage():
     return random.choice(GAS_LEVELS)
 
-
 # Function to generate a random gas station
 def gasStations():
     return random.choice(GAS_STATIONS)
-
 
 # Function to generate a random distance to a gas station
 def getDistance(level):
@@ -106,7 +101,6 @@ def getDistance(level):
     elif level == "Quarter Tank":
         return round(random.uniform(25.1, 50), 1)  # 25 to 50 miles
     return None  # No need for distance for higher gas levels
-
 
 # Main function to determine the gas level and display an alert or suggestion
 def gasLevelAlert():
@@ -135,7 +129,7 @@ def gasLevelAlert():
     else:
         print("Your gas tank is full")
 
-
 # Call the gasLevelAlert function to execute the gas level check and alert
 gasLevelAlert()
->>>>>>> Gasoline
+
+
